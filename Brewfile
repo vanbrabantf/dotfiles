@@ -31,33 +31,48 @@ brew 'mackup'
 brew 'mas'
 brew 'node'
 brew 'trash'
+brew 'tldr'
 brew 'wget'
+brew 'htop'
+brew 'watch'
+
+# Web server
+brew "nginx"
+brew "mysql"
 
 # Development
 brew 'php71', args: ['with-debug']
 brew 'mariadb'
+brew "ruby"
+brew "python3"
+brew "go"
 
 # Apps
-cask 'aerial'
+cask "1password"
 cask 'alfred'
 cask 'caffeine'
 cask 'dropbox'
 cask 'firefox'
+cask "cleanmymac"
+cask "goofy"
+cask "screenflick"
 cask 'google-chrome'
 cask 'google-drive'
+cask "harvest"
+cask "flux"
 cask 'iterm2'
 cask 'mysqlworkbench'
 cask 'phpstorm'
-cask 'quip'
 cask 'sequel-pro'
 cask 'slack'
 cask 'sublime-text'
-cask 'tower'
+cask 'sourcetree'
 cask 'transmit'
 cask 'vagrant'
 cask 'virtualbox'
 cask 'virtualbox-extension-pack'
 cask 'vlc'
+cask "steam"
 
 # Quicklook
 cask 'qlcolorcode'
@@ -65,20 +80,19 @@ cask 'qlmarkdown'
 cask 'quicklook-json'
 cask 'quicklook-csv'
 cask 'qlstephen'
+cask "betterzipql"
+cask "qlimagesize"
+cask "qlprettypatch"
+cask "qlstephen"
 
 # Fonts
 cask 'font-sauce-code-powerline'
 cask 'font-source-code-pro'
 cask 'font-source-sans-pro'
 cask 'font-source-serif-pro'
+cask "font-fira-code"
 
 # Install Mac App Store apps
-mas '1Password', id: 443987910
-mas 'Byword', id: 420212497
-mas 'Deckset', id: 847496013
 mas 'Giphy Capture', id: 668208984
 mas 'Paw', id: 584653203
-mas 'Sip', id: 507257563
-mas 'Sketch', id: 402476602
 mas 'Tweetbot', id: 557168941
-mas 'Wunderlist', id: 410628904
