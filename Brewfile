@@ -74,6 +74,7 @@ cask 'virtualbox-extension-pack'
 cask 'vlc'
 cask "steam"
 cask "whatsapp"
+cask "spotify"
 
 # Quicklook
 cask 'qlcolorcode'
